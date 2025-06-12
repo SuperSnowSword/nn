@@ -105,8 +105,8 @@ if __name__ == '__main__':
     t_train_pred = svm.predict(x_train)     # 预测标签
 
     # 提取测试数据的前两列作为特征 [x1, x2]
-    x_test = data_test[:, :2]    # 测试集特征
-    t_test = data_test[:, 2]     # 测试集标签
+    x_test = data_test[:, :2]    # 测试集的特征
+    t_test = data_test[:, 2]     # 测试集的标签
 
     # 使用训练好的SVM模型对测试数据进行标签预测
     t_test_pred = svm.predict(x_test)   # 预测测试集标签
