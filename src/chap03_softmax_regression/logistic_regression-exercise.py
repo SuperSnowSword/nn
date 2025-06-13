@@ -7,7 +7,7 @@
 
 # 导入 TensorFlow 深度学习框架
 import tensorflow as tf
-# 导入 matplotlib 的 pyplot 模块，用于数据可视化
+# 导入 matplotlib 的 pyplot 模块，可用于数据可视化
 import matplotlib.pyplot as plt
 
 # 从 matplotlib 导入 animation 和 rc 模块
